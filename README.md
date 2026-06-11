@@ -22,16 +22,16 @@ https://github.com/janukavidmaldamunupola/SmartStudentPlanner
 
 ## Framework and Tools Used
 
-| Tool                   |      Version |
-|------------------------|--------------|
-| React Native           |       0.76.x |
-| Expo                   |       SDK 51 |
-| Node.js                |        v20.x |
-| AsyncStorage           |       Latest |
-| React Navigation       |           v6 |
-| React Native Calendars |       Latest |
-| VS Code                |       Latest |
-| Git / GitHub           |       Latest |
+| Tool                                   |      Version |
+|------------------------                |--------------|
+| React Native                           |       0.76.x |
+| Expo                                   |       SDK 51 |
+| Node.js                                |        v20.x |
+| AsyncStorage                           |       Latest |
+| React Navigation                       |           v6 |
+| React Native Calendars                 |       Latest |
+| VS Code                                |       Latest |
+| Git / GitHub                           |       Latest |
 
 ---
 

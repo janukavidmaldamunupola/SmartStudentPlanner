@@ -1,4 +1,5 @@
- import { useState } from 'react';
+import { useState } from 'react';
+import { Image } from 'react-native';
 import {
   View, Text, TextInput, TouchableOpacity,
   StyleSheet, KeyboardAvoidingView, Platform
@@ -27,11 +28,15 @@ export default function LoginScreen({ navigation }) {
       behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
       style={styles.container}
     >
-      <View style={styles.header}>
-        <Text style={styles.headerIcon}>📚</Text>
-        <Text style={styles.headerTitle}>Student Planner</Text>
-        <Text style={styles.headerSubtitle}>Stay on top of your studies</Text>
-      </View>
+    <View style={styles.header}>
+    <Image
+    source={require('../assets/loogo.png')}
+    style={styles.logo}
+    resizeMode="contain"
+    />
+    <Text style={styles.headerTitle}>Student Planner</Text>
+    <Text style={styles.headerSubtitle}>Stay on top of your studies</Text>
+    </View>
 
       <View style={styles.form}>
         <Text style={styles.label}>Username</Text>
@@ -62,7 +67,7 @@ export default function LoginScreen({ navigation }) {
           <Text style={styles.buttonText}>Sign In</Text>
         </TouchableOpacity>
 
-        <Text style={styles.hint}>Demo: enter any username and password (min 4 chars)</Text>
+        <Text style={styles.hint}> Enter Your Username and Password</Text>
       </View>
     </KeyboardAvoidingView>
   );
@@ -140,5 +145,10 @@ const styles = StyleSheet.create({
     fontSize: 12,
     color: '#9CA3AF',
     marginTop: 16,
+  },
+  logo: {
+  width: 120,
+  height: 120,
+  marginBottom: 8,
   },
 });

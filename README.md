@@ -22,18 +22,19 @@ https://github.com/janukavidmaldamunupola/SmartStudentPlanner
 
 ## Framework and Tools Used
 
-| Tool                   |      Version |
-|------------------------|--------------|
-| React Native           |       0.76.x |
-| Expo                   |       SDK 51 |
-| Node.js                |        v20.x |
-| AsyncStorage           |       Latest |
-| React Navigation       |           v6 |
-| React Native Calendars |       Latest |
-| VS Code                |       Latest |
-| Git / GitHub           |       Latest |
+## Project Structure
 
----
+| File/Folder | Purpose |
+|---|---|
+| `App.js` | Main navigation setup |
+| `storage.js` | AsyncStorage data persistence |
+| `context/ThemeContext.js` | Dark mode state management |
+| `screens/LoginScreen.js` | Login with validation |
+| `screens/DashboardScreen.js` | Home with calendar and stats |
+| `screens/TasksScreen.js` | Task list with CRUD operations |
+| `screens/AddTaskScreen.js` | Add and edit tasks |
+| `screens/SearchScreen.js` | Search tasks by keyword |
+| `assets/` | Images and icons |
 
 ## Installation and Setup
 
